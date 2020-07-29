@@ -1,0 +1,94 @@
+body{
+    /* tipo letra */
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   /* imagen de fondo */
+   background-image: url('https://cdn.pixabay.com/photo/2015/01/02/20/00/ford-fairlane-586930_960_720.jpg');
+
+   background-position: center;
+
+   background-size: cover;
+
+   color: wheat;
+}
+
+.sombra{
+
+   /* color de letra */
+   color:palevioletred;
+
+   /* sombra  
+   vetor x horizontal  
+   vector en y horizontal 
+    blur difuminado  
+    color*/
+   text-shadow: 2px 2px 2px  black;
+}
+
+.auto{
+    width: 50vh;
+    border-radius: 20px;
+}
+
+.nombre{
+    color: antiquewhite;
+    background-color: cornflowerblue;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    border: 2px solid yellow;
+}
+
+.descripcion{
+    color: antiquewhite;
+}
+
+.precio{
+    background: palevioletred;
+    width:30%;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.link{
+    background-color: white;
+    padding: 10px;
+
+}
+.link:hover{
+    color: palevioletred;
+    font-size: 25px;
+    
+}
+
+/* IMPORTANT CLASES . .  */
+
+table{
+    width: 100%;
+    background-color: plum;
+    border-radius: 15px;
+    padding: 10px;
+    color: darkslategray
+}
+td,th{
+    border: 2px dashed wheat;
+    text-align: center;
+}
+
+#ol{
+    background-color: blue;
+}
+
+#ol > li{
+    color:palevioletred
+}
+
+
+a{
+    margin-left: 50%;
+}

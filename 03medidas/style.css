@@ -1,0 +1,234 @@
+.titulo{
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    background-color: cadetblue;
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+}
+
+/* ABSOLUTAS  */
+
+/* ancho 1024 y 1280 */
+/* PIXELES*/
+.pixeles{
+    /* ancho  */
+    width: 160px;
+    /* alto */
+    height: 150px;
+    /*  */
+    border: 2px solid blueviolet;
+    /*  */
+    color: aquamarine
+}
+  
+/* puntos */
+.puntos{
+    /*  */
+    font-size: 15pt;
+    /* interlineado */
+    line-height: 7pt;
+    color: #12436d
+}
+
+/*picas  */
+.picas{
+    /*  */
+    font-size: 3pc;
+    /*  */
+    color:yellow;
+    /* left = izquierda */
+  	text-align: left;
+}
+
+/* pulgadas */
+.pulgadas{
+    /*  */
+    font-size: 0.5in;
+    /*  */
+    text-align: right;
+    /*  */
+    color: #f04646
+}
+
+/* CENTIMETROS */
+/* CLASE POR EL . */
+.centimetros {
+    /* asignando el color a la fueste = letra  */
+ 	color: cyan;
+	/* alinear el texto */
+	/* left = izquierda */
+  	text-align: left;
+    /* asignar la unidad de medida 	font size= tamaño de fuente  */
+    /* la unidad de medida siempre va a la derecha seguida del número sin espacio y la unidad de medida para centimetros es cm  */
+  	font-size: 1.5cm;
+}
+
+/* RELATIVAS */
+/* PORCENTAJE */
+
+.porcentaje{
+    width: 40%;
+    background-color: burlywood;
+    color: coral;
+}
+
+/* nota no usar % en la altura */
+
+/* VIEWPORT */
+.view{
+    width: 95vw;
+    height: 95vh;
+    border: 5px double yellowgreen;
+}
+
+
+.titulo{
+    background-color: violet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+    font-size: 60px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    border: 20px dotted yellow;
+    padding: 30px;
+}
+
+.picas{
+    background-color: turquoise;
+    font-family: monospace;
+    color: darkred;
+    font-size: 3pc;
+    text-align: justify;
+    /* ancho siempr emanejalo en px, % o viewport */
+    width: 40%;
+    margin-left: 20%;
+    border: 10px double black;
+}
+
+#cancion{
+    font-family: monospace;
+    color: blueviolet;
+    /* pc o cm  solo 1 cifra */
+    font-size: 5pc;
+    text-align: justify;
+    width: 3pc;
+}
+
+.pulgadas{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    font-size: 1cm;
+    text-align: justify;
+    width: 40%;
+    margin-left: 2in;
+    border: 15px double mediumvioletred;
+}
+
+#mente{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 2in;
+    text-align: justify;
+    width: 3in;
+}
+
+.centimetros{
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    font-size: 20px;
+    text-align: justify;
+    width: 40%;
+    margin-left: 20%;
+    border: 20px double blue;
+}
+
+#color{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: orangered;
+    font-size: 1cm;
+    text-align: justify;
+    width: 12cm;
+}
+
+.medida{
+    background-color: royalblue;
+    font-family: monospace;
+    color: red;
+    font-size: 25px;
+    text-align: justify;
+    width: 35%;
+    margin-left: 20%;
+    border: 10px double yellow;
+}
+
+.porcentaje{
+    background-color: palegreen;
+    font-family: monospace;
+    color: purple;
+    /* para fuentes medidas absolutas */
+    font-size: 25px;
+    text-align: justify;
+    width: 35%;
+    margin-left: 20%;
+    border: 10px double yellow;
+}
+
+#chica{
+    font-family: monospace;
+    color: green;
+    font-size: 25px;
+    text-align: justify;
+    width: 50%;
+}
+
+.view{
+    background-color: lawngreen;
+    font-family: monospace;
+    color: darkblue;
+    text-align: justify;
+    /* viewportwidth */
+    width: 25vw;
+    height: 25vh;
+    height: auto;
+    border: 10px double orange;
+}
+
+#prendas{
+    font-family: monospace;
+    color: olive;
+    text-align: justify;
+    width: 32vw;
+    height: 22vh;
+    border: 10px double palegreen;
+}
+
+#postres{
+    font-family: monospace;
+    color: hotpink;
+    text-align: justify;
+    width: 21vw;
+    height: 13vh;
+    border: 10px double aqua;
+}
+
+.cuadro{
+    border: 2px solid cyan;
+}
+
+
+.repaso{
+    border: 10px dotted coral;
+    width: 50vw;
+    height: 50vh;
+}
+
+.grosor{
+    font-size:40px;
+    font-family: monospace;
+    
+}

@@ -1,0 +1,70 @@
+/* selector por nombre de etiqueta */
+body{
+ background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);;
+}
+
+/* clase */
+.titulo{
+    /* ancho */
+    width: 60%;
+    /* border tiene 3 valores tamaño de borde, forma del borde, y el color de borde */
+    border: 10px dotted cyan;
+    /* margin */
+    margin-left: 20%;
+    /* alinear el texto */
+    text-align: center;
+    /* margen interno  */
+    padding: 15px;
+    /* color de la fuente */
+    color: chartreuse;
+    /* espacio entre letras */
+    letter-spacing: 15px;
+}
+
+
+/* medidas relativas y las medidas absolutas */
+
+/* ABSOLUTAS */
+
+/* centimetros */
+
+.centimetros{
+    color:greenyellow;
+    /* tamaño de letra */
+    /* IMPORTANTE */
+    /* unidades de medida van enseguida de la cantidad sin espacio */
+    font-size: 1cm;
+}
+
+.pulgadas{
+    color: aqua;
+    background-color: blueviolet;
+    font-size: 1in;
+}
+
+.puntos{
+    color:burlywood;
+    background-color: black;
+    font-size: 20pt;
+}
+
+.picas{
+    color: antiquewhite;
+    background-color: cornflowerblue;
+    font-size: 3pc;
+}
+
+/* pixeles */
+.pixeles{
+    /* ancho */
+    width: 100px;
+    /* alto */
+    height: 100px;
+    /* color de fondo */
+    background-color: plum;
+    /* color de letra */
+    color: white;
+    /* border */
+    border: 2px double cyan;
+}
+

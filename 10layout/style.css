@@ -1,0 +1,194 @@
+body{
+    background-color: lightslategray;
+}
+
+/* estilo del header */
+header{
+    /* limpiar */
+    /* border: 2px solid cyan; */
+    width: 100%;
+    /* limpiar */
+    /* height: 10vh; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 100px;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 15px;
+    border-bottom: 2px dashed white;
+}
+
+/* estilo del nav */
+nav{
+    /* limpiar */
+    /* border: 2px solid purple; */
+    width: 100%;
+    /* limpiar */
+    /* height: 10vh; */
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px dashed white;
+}
+
+a:hover{
+    color: burlywood;
+    border-bottom: 2px dashed burlywood;
+    font-size: 31px;
+    text-shadow: 2px 2px 2px black;
+}
+
+/* estilo del aside */
+
+
+main{
+    /* limpiar */
+    /* border: 2px solid greenyellow; */
+    width: 100%;
+    /* limpiar */
+    /* height: 70vh; */
+    height: auto;
+    display: flex;
+    
+}
+
+.div1{
+    /* border: 2px dotted red;  */
+    width: 20vw;
+    background-color: #5c6772;
+}
+
+aside{
+    /* limpiar */
+    /* border: 2px solid salmon; */
+    /* me ayudo a dibujar la caja de primer momento */
+    /* width: 40%; */
+    /* limpiar */
+    /* height: 75vh;  */
+}
+
+.caja{
+    width: 60%;
+    border-top-right-radius: 20px;
+    border-bottom: 2px dashed white;
+    background-color: rgb(146, 4, 146);
+    height: 5vh;
+    /*  */
+    border-left: 5px solid white;
+}
+
+h2{
+    margin-left: 20%;
+    color: white;
+}
+
+.div2{
+    /* border: 2px dotted yellow;  */
+    width: 80vw;
+}
+
+h3{
+    text-align: center;
+    color: white;
+}
+
+section{
+    /* limpiar */
+    /* ctl + } */
+    /* border: 2px solid plum; */
+    /* width: 60%; */
+    /* limpiar */
+    /* height: 25vh; */
+   
+}
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.producto{
+    /* border: 2px solid red; */
+    width: 300px;
+    height: 300px;
+    /* esconde lo que se salga del margen */
+    overflow: hidden;
+}
+/* herencia */
+.producto img{
+    width: 98%;
+    height: 300px;
+    /* 0-1 */
+    /* .1,.2 */
+    opacity: .5;
+   border-radius: 20px;
+   border: 3px dashed white;
+   /* tansicion movimiento lento */
+   /* entre más cantidad de segundos más tarda la transition  */
+   transition: all .6s;
+}
+
+.producto img:hover{
+    opacity: 1;
+    height: 260px;
+}
+
+.precio{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 60%;
+    float: right;
+    border-top-left-radius: 20px;
+    padding: 8px;
+    border: 3px solid olive;
+}
+
+.sec2{
+    background-color: blueviolet;
+}
+
+.sec2 iframe{
+    opacity: .5;
+}
+.sec3 iframe{
+    width: 100%;
+}
+
+
+footer{
+    /* limpiar */
+    /* border: 2px solid orange; */
+    width: 100%;
+    /* limpiar */
+   /*  height: 10vh; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.contacto{
+    width: 30%;
+    /* border: 2px solid yellow; */
+}
+
+
+

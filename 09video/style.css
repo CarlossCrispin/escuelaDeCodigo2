@@ -1,0 +1,12 @@
+body{
+    /* porpiedad para poner color de fondo */
+    background-color: lightgrey;
+}
+
+/* clase por el . */
+.titulo{
+    background-color: cadetblue;
+    color: bisque;
+    text-align: center;
+    border-radius: 15px;
+}

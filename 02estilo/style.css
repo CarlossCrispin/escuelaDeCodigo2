@@ -1,0 +1,113 @@
+.titulo{
+   /* color de fondo */
+   background-color: cornflowerblue; 
+   /* color de la fuente */
+   color: white;
+   /* border tiene 3 valores */
+
+   border: 10px double pink;
+
+   text-align: center;
+
+   margin-bottom: 55px;
+
+   padding: 15px;
+
+   border-radius: 55px;
+}
+
+.tacos{
+   background-color: coral;
+   /* tipo de fuente */
+   font-family: cursive;
+   color: beige;
+   /* tamaño de fuente */
+   font-size: 40px;
+   text-align: center;
+   /* ancho */
+   width: 60%;
+   /* margen 4 lados arriba top derecha right abajo bottom  izquierda left */
+   margin-left: 20%;
+
+   /* redondear  */
+   border-radius: 50%;
+
+   border: 5px solid purple;
+   /* margen interno */
+   padding: 30px;
+}
+
+#tacos{
+   font-size: 20px;
+
+}
+
+li{
+   background-color: aqua;
+}
+
+.titulo{
+    /* COLOR DE FONDO */
+    background-color: cornflowerblue;
+    /* COLOR DE LA FUENTE */
+    color: white;
+    /* BORDER tiene 3 valores */
+    border: 10px dotted pink;
+    text-align: center;
+
+}
+.verdolagas{
+    background-color: purple;
+    font-family: fantasy;
+    color: yellow;
+    font-size: 45px;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    border: 5px double blanchedalmond;
+    padding: 35px;
+}
+#verdolagas{
+    color:green ;
+    font-size: 25px;
+    text-align: justify;
+}
+h3{
+    color: blue;
+    background-color: palevioletred;
+    width: 10%;
+    border-radius: 20%;
+
+}
+.lasaña{
+    background-color: crimson;
+    font-family: monospace;
+    color: cyan;
+    font-size: 90px;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px;
+    border: 5px dotted black;
+    padding: 25px;
+}
+#lasaña{
+    color: purple;
+    font-size: 25px;
+    text-align: center;
+}
+.mole{
+    background-color: fuchsia;
+    font-family: serif;
+    color: black;
+    font-size: 40px;
+    text-align: justify;
+    width: 60%;
+    margin-left: 60px;
+    border:10px double greenyellow;
+    padding: 25px;
+}
+#mole{
+    color: aqua;
+    font-size: 35px;
+    text-align: center;
+}

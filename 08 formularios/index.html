@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
+    <link rel="stylesheet" href="style.css" />
+    <title>Formularios</title>
+  </head>
+  <body>
+    <h1 class="titulo">Formularios</h1>
+
+
+    <div class="box">
+      <div class="datos">
+        <form action="">
+            <!-- par nombra al input  -->
+            <label for="nombre">NOMBRE:</label>
+            <!-- input = entrada, es una etiqueta simple -->
+            <!-- placeholde es un marcador nos indica y nos da información sobre lo requerido -->
+            <!-- required sirve para evaluar el campo o la entrada -->
+            <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre" required  cka>
+            <br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" required placeholder="ingresa tu edad"  min="1"  max="150">
+            <br>
+            <!-- minlength -->
+            <label for="contra">Contraseña:</label>
+            <input type="password" name="contra" id="contra" required placeholder="aqui va tu contraseña" minlength="5" maxlength="10">
+
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required placeholder="ingresa tu mail" >
+            <br>
+            <!-- parte 2 -->
+
+            <!-- RADIO BUTTON -->
+            <!-- <label for="genero">Género:</label>
+            <input type="radio" name="genero" id="f"> femenino
+            <input type="radio" name="genero" id="m">masculino -->
+
+            <!-- radio buttons elegir 1 de unna lista de opciones -->
+            <!-- parrafo -->
+            <p>Género:</p>
+            <input type="radio" name="genero" id="f" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" name="genero" id="m" value="masculino" >
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="o" name="genero" value="otro" >
+            <label for="otro">Otro</label>
+
+            <!-- checkbox -->
+            <!-- podemos elegir mas de una opción -->
+            <p>Me gusta:</p>
+            <input type="checkbox" name="paloma" id="gusto1">
+            <label for="agua">Agua</label>
+            <br>
+            <input type="checkbox" id="gusto2">
+            <label for="cafe">cafe</label>
+            <br>
+            <input type="checkbox" id="gusto3">
+            <label for="te">té</label>
+            <br>
+            <input type="checkbox" id="gusto4" checked>
+            <label for="chocolate">chocolate</label>
+
+            <!-- listas deplegables -->
+
+            <p>Selecciona un lenguaje que domines:</p>
+            <select name="lenguajes" id="lang">
+              <!-- <option value="">selecciona ...</option> -->
+              <option value="1">HTML</option>
+              <option value="2" selected>CSS</option>
+              <option value="3" >JAVASCRIPT</option>
+            </select>
+
+
+            <p>ingresa tu edad</p>
+            <select name="edad" id="edad">
+              <option value="1">10</option>
+              <option value="2">11</option>
+              <option value="3">12</option>
+              <option value="4" selected>13</option>
+              <option value="5">14</option>
+              <option value="6">15</option>
+            </select>
+
+            <button>Enviar</button>
+          </form>
+      </div>
+    </div>
+
+  </body>
+</html>

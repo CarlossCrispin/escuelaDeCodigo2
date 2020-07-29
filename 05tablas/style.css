@@ -1,0 +1,32 @@
+
+body{
+    background-color: coral;
+    color: wheat;
+}
+
+.titulo{
+    width: 60%;
+    margin-left: 20%;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 20px;
+    border: 3px double wheat;
+}
+
+
+
+
+table{
+    width: 100%;
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid cyan;
+    border-radius: 15px;
+}
+
+th, td{
+    border: 2px dotted cyan;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+}

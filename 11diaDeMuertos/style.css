@@ -1,0 +1,184 @@
+/* COLORES */
+/* Color Theme Swatches in Hex */
+.color-1-hex { color: #241E26; }
+.color-2-hex { color: #34BFA6; }
+.color-3-hex { color: #F29441; }
+.color-4-hex { color: #F27649; }
+.color-5-hex { color: #D94E41; }
+
+/* Color Theme Swatches in RGBA */
+.color-1-rgba { color: rgba(35, 29, 38, 1); }
+.color-2-rgba { color: rgba(51, 191, 165, 1); }
+.color-3-rgba { color: rgba(242, 147, 65, 1); }
+.color-4-rgba { color: rgba(242, 117, 72, 1); }
+.color-5-rgba { color: rgba(216, 77, 65, 1); }
+
+/* Color Theme Swatches in HSLA */
+.color-1-hsla { color: hsla(281, 12, 13, 1); }
+.color-2-hsla { color: hsla(168, 57, 47, 1); }
+.color-3-hsla { color: hsla(28, 87, 60, 1); }
+.color-4-hsla { color: hsla(16, 86, 61, 1); }
+.color-5-hsla { color: hsla(5, 66, 55, 1); }
+
+/* Fuentes */
+/* font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+body {
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Lobster', cursive;
+}
+
+
+header{
+    background-image: url('https://cdn.pixabay.com/photo/2018/04/21/20/28/people-3339434_960_720.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+.caja{
+    width: 90vw;
+    /* border: 2px solid salmon; */
+
+}
+
+.navegacion ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    /* padding: 10px; */
+    /* padding-right: 10px; */
+}
+
+a{
+    color: white;
+    text-shadow: 2px 2px 2px #F29441;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+}
+a:hover{
+    color:#F29441;
+    text-shadow: 2px 2px 2px  #241E26;
+    font-size: 28px;
+}
+header h1, h2{
+    color: white;
+    text-shadow: 2px 2px 2px #F29441;
+    font-size: 50px;
+    /* padding-left: 20px; */
+}
+
+.footer-header{
+   margin-top: 60vh;
+}
+.cinto{
+   background-image: url('https://image.freepik.com/vector-gratis/dia-muertos-tradicional-mexicana-halloween-dia-muertos-fiesta-fiesta-decoracion-banner-invitacion_48369-14941.jpg');
+   height: 20vh;
+   background-position: center;
+   text-align: center;
+   color: #fff;
+   font-size: 40px;
+   letter-spacing: 30px;
+   text-transform: uppercase;
+   align-self: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-shadow: 3px 3px 3px #34BFA6;
+}
+
+
+.video {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #241E26;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+video{
+  width: 100%;
+  opacity: .5;
+  height: 100vh;
+}
+
+.texto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.texto h4{
+    color: white;
+    text-shadow: 2px 2px 2px #2c5364;
+    font-size: 50px;
+    border-bottom:5px solid #2c5364;
+}
+
+.contenedor-items{
+    border:solid 2px #34BFA6;
+
+    display: flex;
+    justify-content: space-evenly;
+    /* envolver */
+    flex-wrap: wrap
+}
+
+.item{
+
+    width: 300px;
+    height: 300px;
+    margin: 1%;
+    overflow: hidden;
+
+}
+
+
+.item img{
+    width: 295px;
+    height: 295px;
+    border-radius: 20px;
+    opacity: .5;
+    transition: all .6s;
+    border:solid 3px #F29441;
+}
+.item img:hover{
+    height: 250px;
+    border-radius: 20px;
+
+}
+
+.texto-item{
+    border:solid 2px #D94E41;
+    text-align: center;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar{
+    width: 10vw;
+}

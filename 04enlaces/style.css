@@ -1,0 +1,10 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.centimetros{
+    color: coral;
+    /* unidad cm */
+    font-size: 1cm;
+}
+

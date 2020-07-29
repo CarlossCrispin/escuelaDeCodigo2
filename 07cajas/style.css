@@ -1,0 +1,53 @@
+body{
+    background-color:salmon;
+}
+
+.titulo{
+    background-color: teal;
+    color:beige;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: 10px solid beige;
+    /* espacio entre letras */
+    letter-spacing: 10px;
+}
+
+.ref{
+    border: 1px solid beige;
+}
+
+/* float */
+.caja{
+    border: 2px solid cyan;
+    text-align: center;
+    width: 30vw;
+    height: 10vh;
+    /* flota a la izquierda del ultimo elemento */
+    float: left;
+    margin-left: 2vw;
+    margin-bottom: 10px;
+}
+
+/* flexbox */
+/* declarar la propiedad display con el valor flex */
+.principal{
+    /* borra la propiedad float */
+    clear: both;
+    border: 2px solid magenta ;
+    display: flex;
+    margin-top: 10px;
+    /* distribución y posicionamiento de los elementos internos */
+    /* sirve para distribuir cajas */
+    justify-content: space-evenly;
+}
+
+.caja-flex{
+    margin: 2px;
+    border: 1px dashed yellowgreen ;
+    text-align: center;
+    padding: 10px;
+}
+
